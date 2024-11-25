@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.vt323-regular {
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-family: Jacquard 12;
+}
+
+p {
+	font-family: VT323;
+}
+
+body {
+	background-color:rgba(255,255,255,1.00)
+}
+
+img{
+	max-width:100%;
+	border-radius: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.flex-container{
+	display:flex;
+}
+
+.flex-container > div {
+	background-color:rgba(255,255,255,1.00);
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.flex-container{
+		display:flex;
+		flex-direction:row;
+	}
+	
+	.flex-container > div {
+	background-color:rgba(255,255,255,1.00);
+	text-align: center;
+	width:600px;
+	margin: 0 auto;
+}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.flex-container{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.flex-container > div {
+	background-color:rgba(255,255,255,1.00);
+	text-align: center;
+	width:400px;
+	margin: 0 auto;
+}
+	
+}
+
+			*{
+			text-decoration: none;
+		}
+		.navbar{
+			background-color:rgba(0,15,51,1.00); font-family: VT323; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-family: VT323; margin-right: 25px;
+		}
+
+.button {
+	background-color:rgba(0,15,51,1.00);
+	color: white;
+	font-family: VT323; 
+	margin: 0 auto;
+}
