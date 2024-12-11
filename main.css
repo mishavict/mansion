@@ -12,12 +12,9 @@
   font-style: normal;
 }
 
-img{
-text-align: center;
-}
-
 body{
 	background-image: url("images/bg.JPG");
+	text-align: center;
 }
 
 h1 {
